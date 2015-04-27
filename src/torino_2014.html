@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <meta name="description" content="Internet of Things - 17 Giugno 2015" />
+    <meta name="description" content="Internet of Things - 15 Novembre 2014" />
     <meta name="keyword" content="internet of things, arduino, raspberry pi" />
     <meta name="Copyright" content="Corley" />
     <meta name="Language" content="English" />
@@ -11,10 +11,10 @@
     <meta name="documentType" content="WebDocument" />
     <meta name="publisher" content="" />
     <meta name="ICBM" content="45.030, 7.40" />
-    <meta name="geo.position" content="44.522274 ,11.346878" />
-    <title>Internet Of Things - 17 Giugno 2015 - Bologna</title>
+    <meta name="geo.position" content="45.030, 7.40" />
+    <title>Internet Of Things - 15 Novembre 2014 - Torino</title>
 
-    <meta property="og:title" content="InternetOfIT - Internet Of Things 15 Giugno 2015 Bologna" />
+    <meta property="og:title" content="InternetOfIT - Internet Of Things 15 Novembre Torino" />
     <meta property="og:image" content="http://internetof.it/iot_bg.jpg" />
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -27,23 +27,23 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script type='text/javascript'>
-    function initialize_map() {
+        function initialize_map() {
             var mapOptions = {
-              zoom: 12,
-              center: new google.maps.LatLng(44.522274 ,11.346878),
-              mapTypeId: google.maps.MapTypeId.ROADMAP,
-              scrollwheel: false
+                zoom: 14,
+                center: new google.maps.LatLng(45.050193, 7.669286),
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                scrollwheel: false
             }
             var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
 
             var hotel = new google.maps.Marker({
-                position: new google.maps.LatLng(44.522274, 11.346878),
+                position: new google.maps.LatLng(45.050193, 7.669286),
                 map: map,
                 icon: 'marker.png',
-                title:"T3LAB BOLOGNA"
+                title:"Toolbox Torino"
             });
 
-          }
+        }
     </script>
     <script type='text/javascript'>
         window.addEvent('domready', function() {
@@ -133,6 +133,7 @@
         #map_canvas_over{
             background-color:#7fb6bb;
         }
+
         .circle{
             margin-left: 5px;
             width: 200px;
@@ -146,11 +147,35 @@
             background-position: center center;
             background-size: cover;
         }
+        .fficili {
+            background-image: url(/media/img/fficili.jpg);
+        }
+        .lcipriani {
+            background-image: url(/media/img/luca-cipriani.jpg);
+        }
+        .lromagnoli {
+            background-image: url(/media/img/lromagnoli.jpg);
+        }
+        .bsterling {
+            background-image: url(/media/img/bsterling.jpg);
+        }
+        .ebertrand {
+            background-image: url(/media/img/ebertrand.jpg);
+        }
+        .ezimuel {
+            background-image: url(/media/img/ezimuel.png);
+        }
         .gmittica {
             background-image: url(/media/img/gmittica.jpg);
         }
         .wdalmut {
             background-image: url(/media/img/wdalmut.jpg);
+        }
+        .gvietri {
+            background-image: url(/media/img/gennaro.jpg);
+        }
+        .mcesaro {
+            background-image: url(/media/img/mcesaro.jpg);
         }
         .ecio {
             width: 200px;
@@ -184,7 +209,7 @@
           <div class="lineare_no">
 	            <div class='inside'>
 	                <div class='lineare_no' id='header'>
-	                <h2>Mercoledì 17 Giugno 2015</h2>
+	                <h2>Sabato 15 Novembre 2014</h2>
 	                <h1>Internet of Things</h1>
 	                <h3>Una giornata dedicata all'Internet delle Cose</h3>
 	            </div>
@@ -257,13 +282,38 @@
                 <div class='title'>
                     <h3><span class='grassetto'>I Premi</span></h3>
                 </div>
+                <div class="lineare_no">
+                    <div class="quarto">
+                        <div class="lineare_no">
+                            <div class="circle ecio"></div>
+                        </div>
+                    </div>
+                    <div class="trequarti">
+
+                        <div class="lineare_no">
+                            <p class="">
+                                Grazie a <a href='http://www.matrixtsl.com' target='_blank'>Matrix Technology Solution</a>
+                                estrarremo una ventina di schede elettroniche in regalo per i partecipanti dell'evento.
+                            </p>
+                            <p class="">
+                                Le ECIO&trade; della Matrix Technology Solution sono dei potenti microcontrollori a 16-bit
+                                della famiglia PIC.<br>
+                                Questi potenti Digital Signal Processor hanno a bordo diverse periferiche, tra cui:
+                                4x UART, 4 x SPI, 12-bit ADC, 16 x PWM, 2 x I2C and 2 x Internal CAN and USB.
+                            </p>
+                            <p class="">
+                                <a href="http://www.matrixtsl.com/product.php?Prod=ECIO40P16">Clicca qui per scoprire le ECIO 40 PIN</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id='block3' class='block' >
                 <a name='relatori' class='ancor'></a>
                 <div class='title'>
                     <h3><span class='grassetto'>I Relatori</span></h3>
                 </div>
-                <!--<div class="lineare_no">
+                <div class="lineare_no">
                     <div class="quarto">
                         <div class="circle bsterling"></div>
                         <div style="width:200px" class="sparisce">
@@ -370,12 +420,16 @@
                     <div class="quarto">
                         &nbsp;
                     </div>
-                </div> -->
+                </div>
+                
+                
+                
+                
+                
                 
                 <div class='title' style="margin-top:60px;">
         <h3><span class='grassetto' >Il Programma</span></h3>
       </div>
-       <!--
       <div class='programs lineare_25'>
 
         <div class='program program2'>
@@ -514,7 +568,17 @@ modo da controllare l'ambiente circostante comodamente dal proprio client IM.
         
         
 
-      </div>-->
+      </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 
             </div>
             <div id='block4' class='block'>
@@ -522,40 +586,22 @@ modo da controllare l'ambiente circostante comodamente dal proprio client IM.
                 <div class='title'>
                     <h3><span class='grassetto'>La Location</span></h3>
                 </div>
-                <p class="testo_cen">L'evento si svolgerà nel rinomato T3LAB di Bologna, in via Sario Bassanelli 16, a pochiminuti dalla stazione di Bologna Centrale.</p>
-                <p class="testo_cen"><strong><a href='http://www.t3lab.it/' target='_blank'>T3LAB Bologna</a></strong><br/>via Sario Bassanelli 16</p>
+                <p class="testo_cen">L'evento si svolgerà presso Toolbox di Torino, il coworking tecnologico situato presso </p>
+                <p class="testo_cen"><strong><a href='http://www.toolboxoffice.it/' target='_blank'>Toolbox Coworking</a></strong><br/>Via Agostino da Montefeltro 2, 10134, Torino</p>
                 <div class='lineare_20' id='map_canvas_over'>
                     <div class='lineare_no' id='map_canvas'></div>
                 </div>
-                <div class='lineare_20'>
-                    <div class='quarto'>
-                        <p><strong>In Auto</strong></p>
-                        <p>Prendere l'uscita n. 6 della tangenziale e proseguire verso il centro città. Dopo aver superato il sottopasso ferroviario svoltare subito a sinistra in via Bassanelli. Il laboratorio si trova a piano terra della Fondazione Aldini (è possibile parcheggiare gratuitamente all'interno del parcheggio della Fondazione).</p>
-                    </div>
-                <div class='quarto' style='margin-left:8%;'>
-                    <p><strong>In Autobus</strong></p>
-                    <p>
-                        Dalla Stazione centrale camminare per 50 metri verso la pensilina dei bus urbani dell'autostazione dei bus (via Indipendenza) e prendere una qualsiasi linea del 27 (A, B o C è indifferente) direzione Corticella e scendere alla fermata "Istituto Aldini", ovvero dopo 6 fermate. La linea 27 ha una frequenza di 5-7 minuti.
-                    </p>
-                </div>
-                <div class='quarto' style='margin-left:8%;'>
-                    <p><strong>In Treno e metropolitana</strong></p>
-                    <p>
-                        La stazione di Bologna Centrale è comodamente raggiungibile sulla rete ad alta velocità grazie ai molteplici collegamenti con le stazioni di Milano, Firenze, Roma, Torino, Napoli, Venezia (<a href="http://www.trenitalia.it" target="_blank">Trenitalia</a>, <a href="http://www.italo.it" target="_blank">Italo</a>).
-                   </p>
-                </div>
             </div>
-
-            <div id="block5" class="block">
-                <a name="prenota" class="ancor"></a>
+            <div id='block5' class='block'>
+                <a name='prenota' class='ancor'></a>
                 <div class="title">
                     <h3><span class="grassetto">Prenota il tuo biglietto gratuito</span></h3>
                 </div>
                 <p class="testo_cen">
-                    </p><div style="width:100%; text-align:left;"><iframe src="//eventbrite.it/tickets-external?eid=16747142153&amp;ref=etckt" frameborder="0" height="290" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;"><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.it/r/etckt">Vendi i biglietti online</a> <span style="color:#ddd;">attraverso</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.it?ref=etckt">Eventbrite</a></div></div>
-                <p></p>
+                    <div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.it/tickets-external?eid=13580532739&ref=etckt" frameborder="0" height="290" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.it/r/etckt">Vendi i biglietti online</a> <span style="color:#ddd;">attraverso</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.it?ref=etckt">Eventbrite</a></div></div>
+                </p>
                 <p class="testo_cen">
-                    <a target="_blank" href="https://www.eventbrite.it/e/biglietti-internetofit-una-giornata-dedicata-allinternet-delle-cose-16747142153">Vai all'evento su Eventbrite</a>
+                    <a target="_blank" href="https://www.eventbrite.it/e/biglietti-internetofit-una-giornata-dedicata-allinternet-delle-cose-13580532739">Vai all'evento su Eventbrite</a>
                 </p>
             </div>
 
@@ -575,19 +621,24 @@ modo da controllare l'ambiente circostante comodamente dal proprio client IM.
                 </div>
                 <div class='lineare_no testo_cen' >
                     <div class='lineare_20 testo_cen'>
-                        <!--<a href='http://www.innomatic.io' target='_blank'><img src='innomatic.png' class='sponsor' /></a>-->
+                        <a href='http://www.innomatic.io' target='_blank'><img src='innomatic.png' class='sponsor' /></a>
                         <a href='http://www.corley.it' target='_blank'><img src='sponsor_corley.png' class='sponsor' /></a>
+                        <a href='http://www.matrixtsl.com' target='_blank'><img src='sponsor_matrix.jpg' class='sponsor' /></a>
                     </div>
                     <div class='lineare_20'>
                         <h3><i>Con la collaborazione di </i></h3>
                     </div>
                     <div class='lineare_20 testo_cen '>
+                        <a href='http://www.toolboxoffice.it/' target='_blank'><img src='sponsor_toolbox.jpg' class='' style="margin-right:15px" /></a>
                         <a href='http://www.cloudconf.it/' target='_blank'><img src='cloud.png' class='' style="margin-right: 15px"/></a>
+                        <a href='http://soupandgo.it/' target='_blank'><img src='soupandgo.png' class='' /></a>
                     </div>
                     <div class='lineare_20'>
                         <h3><i>Grazie ai Media Partner</i></h3>
                     </div>
                     <div class='lineare_20 testo_cen '>
+                        <a href='http://torino.grusp.org/' target='_blank'><img src='sponsor_pug.png' class='sponsormedia' /></a>
+                        <a href='http://www.html.it/' target='_blank'><img src='sponsor_html.png' class='sponsormedia' /></a>
                         <a href='http://spaghetti.io' target='_blank'><img src='http://spaghetti.io/static/sito/common/img/loghi/logo.png' class='sponsormedia' style="height:50px;padding:15px;" /></a>
                     </div>
                     <div class='lineare'>&nbsp;</div>
@@ -603,7 +654,7 @@ modo da controllare l'ambiente circostante comodamente dal proprio client IM.
             </div>
 
             <div class='staytuned lineare_no'>ti aspettiamo!</div>
-            <div class='footer'>&copy; InternetOf.it - Mercoledì 17 Giugno 2015, Bologna - <span id='gotop' class='puntatore'>torna in cima</span></div>
+            <div class='footer'>&copy; InternetOf.it - Sabato 15 Novembre 2014, Torino - <span id='gotop' class='puntatore'>torna in cima</span></div>
         </div>
     </div>
 
