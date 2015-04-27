@@ -14,7 +14,7 @@ publish:
   s3:
     acl: public-read
     region: eu-west-1
-    bucket: webtest.revgar.com
+    bucket: internetof.it
     access_key: $$AWS_KEY
     secret_key: $$AWS_SECRET
     source: src/
