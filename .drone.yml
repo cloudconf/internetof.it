@@ -1,0 +1,24 @@
+image:
+    node:0.10
+
+script:
+    - apt-get update
+    - apt-get install -y python-pip
+    - npm install -g grunt-cli
+    - npm install
+    - cp configuration.json.dist configuration.json
+    - node_modules/.bin/bower install --allow-root
+    - grunt build
+
+publish:
+  s3:
+    acl: public-read
+    region: eu-west-1
+    bucket: webtest.revgar.com
+    access_key: $$AWS_KEY
+    secret_key: $$AWS_SECRET
+    source: src/
+    target: /
+    recursive: true
+    when:
+        branch: "master
